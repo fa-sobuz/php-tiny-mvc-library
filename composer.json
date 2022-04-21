@@ -1,0 +1,25 @@
+{
+  "name": "sobuz/tiny-mvc-library",
+  "description": "Tiny MVC brings your project less code and faster completion.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fa-sobuz",
+      "email": "falifamily247@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require-dev": {
+    "ramsey/uuid": "^4.3",
+    "nesbot/carbon": "^2.57"
+  }
+}
